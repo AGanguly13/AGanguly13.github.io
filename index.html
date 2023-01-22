@@ -56,17 +56,18 @@
     <body>
         
         <h1 id="mainhead"> &lt;Adwait Ganguly&gt;</h1>
-        <h1 id="mainhead"> IN PROGRESS</h1>
-        <span id="wait">.</span>
-        <script>
-        var dots = window.setInterval( function() {
-            var wait = document.getElementById("wait");
-            if ( wait.innerHTML.length > 3 ) 
-                wait.innerHTML = "";
-            else 
-                wait.innerHTML += ".";
-            }, 100);
-        </script>
+        <h1 id="mainhead"> IN PROGRESS
+            <span id="wait">.</span>
+            <script>
+            var dots = window.setInterval( function() {
+                var wait = document.getElementById("wait");
+                if ( wait.innerHTML.length > 3 ) 
+                    wait.innerHTML = "";
+                else 
+                    wait.innerHTML += ".";
+                }, 100);
+            </script>
+        </h1>
         <img src="nycPhoto.jpg" alt="Headshot in NYC">
        
         <ul id="contents">
