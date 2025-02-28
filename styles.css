@@ -1,24 +1,21 @@
 body {
     font-family: "DM Sans", sans-serif;
 }
+.center-text {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
 @media (max-width: 768px) {
-    #mainhead{
-        text-align:center;
-        color:black;
-        font-size:80px;
-        font-family:"DM Sans";
-        width:100%;                
-        padding-bottom: -10px;
-    }
-    .Head{
-        font-weight:900;
-        font-family:"DM Sans";
-        color:rgb(232, 94, 44);
-        margin-bottom:25px;
-        text-align:center;
-        font-size:75px;
+    #mainhead {
+        font-size: 50px;
     }
 }
+
 li:hover {
     font-family:"DM Sans";
     color:black;
